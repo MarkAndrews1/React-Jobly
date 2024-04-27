@@ -1,0 +1,40 @@
+.Navigation-navbar {
+    background-color: #7f7f9c; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding around the navbar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly along the main axis */
+    align-items: center; /* Center items along the cross axis */
+    height: 50px;
+  }
+  
+  .Navigation-navbar .navbar-brand {
+    font-size: 1.5rem; /* Larger font size for the brand */
+    text-decoration: none; /* Remove underline from link */
+    color: #fff; /* White text color */
+  }
+  
+  .Navigation-navbar ul {
+    list-style-type: none; /* Remove bullet points from list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .Navigation-navbar ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  
+  .Navigation-navbar ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  .Navigation-navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+  }
+  
+  .Navigation-navbar a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  

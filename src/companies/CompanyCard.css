@@ -1,0 +1,44 @@
+.CompanyCard-container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .CompanyCard-card {
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Inherit color from parent */
+    background-color: #f5f5f5; /* Add a background color */
+    border-radius: 8px; /* Add some rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    padding: 20px; /* Add padding to the card */
+    transition: transform 0.2s ease; /* Add a smooth transition effect */
+    max-width: 400px; /* Limit the maximum width of the card */
+    width: calc(33.33% - 20px); /* Adjust width to fit 3 cards per row */
+  }
+  
+  .CompanyCard-card:hover {
+    transform: translateY(-5px); /* Add a slight lift effect on hover */
+  }
+  
+  .CompanyCard-body {
+    text-align: center;
+    margin-bottom: 10px; /* Adjust margin bottom */
+  }
+  
+  .Company-card-body h4 {
+    font-size: 24px; /* Larger font size for the title */
+    margin-bottom: 5px; /* Reduce space below the title */
+  }
+  
+  .Company-card-body p {
+    font-size: 18px; /* Font size for the description */
+    margin-bottom: 0; /* Remove default margin */
+  }
+  
+.CompanyCard-name{
+    color: rgb(26, 22, 22);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}

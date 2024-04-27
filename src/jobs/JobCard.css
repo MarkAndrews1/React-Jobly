@@ -1,0 +1,66 @@
+.JobCard-container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+.JobCard {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 400px;
+  }
+  
+  .JobCard.applied {
+    background-color: #f0f0f0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  
+  .job-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .salary {
+    font-size: 0.9rem;
+  }
+  
+  .equity {
+    font-size: 0.9rem;
+  }
+  
+  .apply-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .applied-btn {
+    background-color: #6c757d;
+    cursor: default;
+  }
+  
+  .apply-btn:disabled {
+    background-color: #6c757d;
+  }
+  
